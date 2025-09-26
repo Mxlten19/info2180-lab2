@@ -97,6 +97,12 @@ article {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 article h2 {
     font-size: 32px;
     color: #48BB78;
@@ -119,6 +125,7 @@ article h2 {
     border-radius: 5px;
     float: left;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
 }
 
 .blog-image.right {
